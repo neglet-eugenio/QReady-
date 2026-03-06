@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Safety procedures</title>
+
+  <!-- bootstrap (only for grid utility if you use it) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-left">QReady!</div>
+    <nav class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="Product.html">Emergency Hotlines</a>
+      <a href="Emergencyguides.html">Emergency Guides</a>
+      <a href="Emergencygobag.html">Emergency Go Bag</a>
+      <a href="Aboutus.html">About</a>
+    </nav>
+  </header>
+
+<main class="emergency-g">
+  <section class="py-5">
+    <div class="container">
+
+      <h2 class="page-headlines">Emergency Guides</h2>
+
+      <!-- PRODUCT GRID -->
+<div class="product-grid">
+
+  <!-- PRODUCT 1 -->
+  <div class="product-item">
+    <div class="card text-center product-card" tabindex="0">
+
+      <img
+        src="Assets\earthquake (2).png"
+        data-zoom="Assets\earthquake preparedness (1).png" class="card-img-top product-image"
+      >
+
+      <div class="card-overlay">DETAILS</div>
+
+    </div>
+  </div>
+
+  <!-- PRODUCT 2 -->
+  <div class="product-item">
+    <div class="card text-center product-card" tabindex="0">
+
+      <img
+        src="Assets\fire (1).png"
+        data-zoom="Assets\fire disaster preparedness (1).png"class="card-img-top product-image"
+      >
+
+      <div class="card-overlay">DETAILS</div>
+
+    </div>
+  </div>
+
+  <!-- PRODUCT 3 -->
+  <div class="product-item">
+    <div class="card text-center product-card" tabindex="0">
+
+      <img
+        src="Assets\flood (3).png"
+        data-zoom="Assets\flood disaster preparedness (1).png" class="card-img-top product-image"
+      >
+
+      <div class="card-overlay">DETAILS</div>
+
+    </div>
+  </div>
+
+</div>
+
+    <!-- overlay -->
+    <div class="page-overlay" id="pageOverlay"></div>
+
+  </section>
+</main>
+
+  <!-- product zoom + interactions -->
+  <script src="js/product-zoom.js"></script>
+</body>
+</html>
