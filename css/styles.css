@@ -566,7 +566,7 @@ footer {
 .homepage {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(8, 16, 24, 0.45), rgba(8, 16, 24, 0.45)), url("https://scontent.fmnl8-3.fna.fbcdn.net/v/t39.30808-6/647135737_4528252060789740_6887225949250310677_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeGoVBQOHWlJW7Og6HF5xZc6hS38hLkkJriFLfyEuSQmuMOkhPugEDeci_OG2_ThWxHb354x4mx9grtqgR2fjrmp&_nc_ohc=sE2ITZA5lfsQ7kNvwG74_j6&_nc_oc=Adkd9HvHAZYUHECyHMyxT2ulAU9mN4Uw9dN9zEnb66xGzUf6jzRKQi6DkJjj_X63QJw&_nc_zt=23&_nc_ht=scontent.fmnl8-3.fna&_nc_gid=3Nfg0tYDjL9qFH54SM-9Zw&_nc_ss=8&oh=00_AfyF-rkSTnkamqmonzhlkRYaWEqwCu_dqZPERwoueFLL8w&oe=69B0B7B6");
+  background-image: linear-gradient(rgba(8, 16, 24, 0.45), rgba(8, 16, 24, 0.45)), url("../Assets/bg3.jpeg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
